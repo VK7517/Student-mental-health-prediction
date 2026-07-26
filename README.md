@@ -210,6 +210,9 @@ print(f"Assigned Mental Health Support Group: {predicted_label[0]}")
 
 ---
 
+## Deployed on Render
+Live at: https://student-mental-health-prediction-2.onrender.com
+
 ## 🔮 Future Work
 * **Class Imbalance Resolution**: Apply synthetic data generation (SMOTE) or focal loss to improve recall on rare classes (like Cluster E).
 * **API Deployment**: Wrap the pre-trained `Gradient_Boosting_Classifier.pkl` inside a FastAPI REST endpoint to serve real-time predictions.
