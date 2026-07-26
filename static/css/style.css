@@ -1,0 +1,82 @@
+/* Background */
+body {
+    background: linear-gradient(135deg, #4facfe, #00f2fe);
+    min-height: 100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Card */
+.card {
+    border: none;
+    border-radius: 18px;
+    background: white;
+}
+
+/* Heading */
+h2 {
+    color: #0d6efd;
+    font-weight: bold;
+}
+
+/* Labels */
+.form-label {
+    font-weight: 600;
+}
+
+/* Inputs */
+.form-control,
+.form-select {
+    border-radius: 10px;
+    padding: 10px;
+}
+
+/* Focus effect */
+.form-control:focus,
+.form-select:focus {
+    border-color: #0d6efd;
+    box-shadow: 0 0 8px rgba(13,110,253,.3);
+}
+
+/* Button */
+.btn-primary {
+    border-radius: 10px;
+    font-weight: bold;
+    padding: 12px;
+    transition: 0.3s;
+}
+
+.btn-primary:hover {
+    transform: scale(1.03);
+}
+
+/* Table */
+.table th {
+    width: 40%;
+}
+
+/* Recommendations */
+.list-group-item {
+    border: none;
+    padding: 12px;
+    font-size: 16px;
+}
+
+/* Badges */
+.badge {
+    font-size: 15px;
+    padding: 8px 14px;
+}
+
+/* Responsive */
+@media (max-width:768px){
+
+.card{
+    margin:20px;
+    padding:20px !important;
+}
+
+h2{
+    font-size:26px;
+}
+
+}
